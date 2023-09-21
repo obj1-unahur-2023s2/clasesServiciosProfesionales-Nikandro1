@@ -31,7 +31,7 @@ class ProfesionalVinculado {
 class ProfesionalLibre {
 	var universidad
 	var honorariosPorHora
-	const provinciasDondePuedeTrabajar = {}
+	const provinciasDondePuedeTrabajar = #{}
 	method universidad() { return universidad }
 	method universidad(univ) { universidad = univ }
 	method honorariosPorHora() = honorariosPorHora
